@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <androidPackages>
+<!--        huawei -->
+         <androidPackage spec="com.huawei.agconnect:agconnect-core:1.6.5.300" /> 
+         <androidPackage spec="com.huawei.agconnect:agconnect-remoteconfig:1.6.5.300" /> 
+         <androidPackage spec="com.huawei.agconnect:agconnect-auth:1.6.5.300" /> 
+         <androidPackage spec="com.huawei.agconnect:agconnect-crash:1.6.5.300" /> 
+         <androidPackage spec="com.huawei.hms:hianalytics:6.4.1.302" /> 
+         <androidPackage spec="com.huawei.hms:ads-identifier:3.4.39.302" /> 
+         <androidPackage spec="com.huawei.hms:ads-installreferrer:3.4.39.302" /> 
+         <androidPackage spec="com.huawei.hms:ads-lite:13.4.53.300" /> 
+         <androidPackage spec="com.huawei.hms:iap:6.3.0.300" /> 
+         <androidPackage spec="com.appsflyer:oaid:6.2.4" /> 
+    </androidPackages>
+</dependencies>

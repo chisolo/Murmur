@@ -1,0 +1,21 @@
+public enum BuildingStat
+{
+    Revenue,
+    TotalRevenue,
+    Salary,
+    TotalSalary,
+    BureauService,
+    BureauCapacity,
+    ReceptionService,
+    ReceptionCell,
+    ReceptionCapacity,
+    ReceptionCellService,
+    DeliverCapacity,
+    DeliverCell,
+    DeliverCellCapacity,
+    DeliverCellSpeed,
+    StorageService,
+    StorageCapacity,
+    StorageCell,
+    StorageCellService
+}

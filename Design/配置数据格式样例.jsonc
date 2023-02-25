@@ -1,0 +1,549 @@
+{
+    "common" : { // 全局设置
+        "camera_pos" : {
+            "x" : 1.0,
+            "y" : 1.0,
+            "z" : 1.0
+        }, // 摄像机默认位置
+        "camera_boundary" : {
+            "x" : 200,
+            "y" : 0,
+            "z" : 200
+        }, // 摄像机移动范围
+        "food_take_pos" : { // 移动时食物挂点位置
+            "x": 0.65,
+            "y": 0.85,
+            "z": 0.33
+        },
+        "food_eat_pos" : { // 吃的时候食物挂点位置
+            "x": 0,
+            "y": 0.85,
+            "z": 0.45
+        },
+        "camera_min_dis" : 10.0, // 摄像机最小距离
+        "camera_max_dis" : 20.0, // 摄像机最大距离
+        "camera_init_dis" : 12.0, // 摄像机初始距离
+        "default_candidate_refresh_seconds": 7200, // 初始雇员候选人刷新时间
+        "default_candidate_count": 4, // 初始雇员候选人数量
+        "candidate_gacha_groups": [ "CANDIDATE_1", "CANDIDATE_2", "CANDIDATE_3"], // 雇员候选人抽选池。CANDIDATE_1是gacha_groups内配置内容
+        "normal_base_salary": 10, // 普通属性基础加成工资
+        "rare_base_salary": 15, // 稀有属性基础加成工资
+        "sr_base_salary": 20, // 传奇属性基础加成工资
+        "default_candidate_refresh_count": 5, // 雇员候选人刷新次数
+        "default_staff_max_counnt": 20, // 雇员最大数
+        "hire_probability_zero_ratio": 0.5, // 概率AlmostZero雇佣系数
+        "hire_probability_low_ratio": 0.667, // 概率low雇佣系数
+        "hire_probability_medium_ratio": 1, // 概率medium雇佣系数
+        "hire_probability_high_ratio": 1, // 概率high雇佣系数
+        "hire_probability_very_high_ratio": 1, // 概率very high雇佣系数
+        "talk_duration":3, // 业务房间说废话的时长
+        "eat_duration":3, // 吃饭时长
+        "reception_worker_salary" : 10,
+        "sausage_storage_worker_salary" : 10,
+        "cheese_storage_worker_salary" : 10,
+        "flour_storage_worker_salary" : 10,
+        "deliver_worker_salary" : 10,
+        "team_max": 4, // 建造队列最大值
+        "ad_max": 5, // 队列观看广告最大次数
+        "basic_gacha_refresh_time": 7200, // 广告抽卡冷却时间（单位秒）
+        "welcome_upgrade_vault_id": "xxx", // 离线收益跳转商店特权ID
+        "offline_time": 120, // 离线时间
+        "offline_income_factor": 0.00075, // 离线收益系数
+        "ad_income_ratio": 1.0, // 广告现金加成比例 1.0 -> 100%
+        "ad_income_boost_limit_time": 60, // 累计时间上限(分)
+        "ad_income_boost_time": 10, //每次观看广告获得的时间(分)
+        "ad_income_upgrade_treasury_id": "xxx", // 广告现金加速跳转商店特权ID
+
+        "ad_extra_shop_limit_gift_id": "", // 获取现金优先跳转限时礼包ID
+        "ad_extra_shop_gift_id": "", // 获取现金跳转商店礼包ID
+        "ad_extra_require_build_id": "", // 获取现金指定建筑
+        "ad_extra_button_cooldown": "20", // 主界面按钮间隔时间
+        "ad_extra_factor": [0.64,0.71,0.85,1,1.14], // 系数
+
+        "no_ad_show_star_count": 1, // 无广告按钮 显示需要star数
+        "promotion_popup_show_star_count": 1, // 促销 显示需要star数
+
+        "show_promotion_by_popup_time": 20, //关闭触发促销，时间(秒)
+
+        "income_boost_anim_unlock_star": 2, // 广告现金加速 手指动画 解锁星级
+        "free_gacha_reddot_unlock_star": 2, // 免费厨师红点, 解锁星级
+    },
+    "buildings" : {
+        "reception_1" : {
+            "id" : "reception_1", // 房间id
+            "type" : "bureau", // 房间类型
+            "service" : "hotdog_bureau", // 房间服务类型
+            "init_level" : 1, // 初始等级
+            "max_level" : 5, // 最大等级
+            "pre_building" : [ // 前置建筑
+                {
+                    "id" : "reception_1", // 前置建筑id
+                    "level" : 1 // 前置建筑等级
+                }
+            ],
+            "pre_talent" : [ // 前置科技
+                {
+                    "id" : "reception_1", // 前置科技id
+                    "level" : 1 // 前置科技等级， 无等级则填0
+                }
+            ],
+            "lvlup_duration" : [10, 20, 30, 40, 50], // 升级耗时基础值（之后会加成），从0-1开始配（无论初始等级为几，都要从0-1开始配，可以为0
+            "lvlup_cost" : [10, 20, 30, 40, 50], // 升级花费基础值，从0-1开始配（无论初始等级为几，都要从0-1开始配，可以为0
+            "service_duration" : [10, 20, 30, 40, 50], // 服务耗时基础值，从1级开始配
+            "capacity" : [1, 2, 3, 4, 5], // 容量基础值，此数值在不同房间代表不同含义
+            "revenue" : [], // 收益基础值，没有收益的房间留空
+            "enhance_set" : [   // 加成集合id：从1级开始配
+                "enhance_set_1",
+                "enhance_set_2",
+                "enhance_set_3",
+                "enhance_set_4",
+                "enhance_set_5"
+            ],
+            "sausage_require" : [ // 业务需要的热狗，可以为空
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "cheese_require" : [], // 业务需要的奶酪，可以为空
+            "flour_require" : [], // 业务需要的面粉，可以为空
+            "product" : "", // 生产的原料类型，非生产建筑则为”“
+            "timeout": 10,
+            "name" : "RECEPTION_1_NAME", // 房间名称本地化key
+            "desc" : "RECEPTION_1_DESC", // 房间描述本地化key
+            "small_icon" : "XXXX.png", // 房间小图标路径
+            "big_icon" : "XXXX.png", // 房间大图标路径
+            "preview_icon" : "XXXX.png", // 房间预览图路径
+            "click_mod" : "building_reception_1_click", // 房间点击模型key
+            "mods" : [ // 房间模型配置，从0级开始配，可以为空
+                "",
+                "building_reception_1_lv1",
+                "building_reception_1_lv2",
+                "building_reception_1_lv3",
+                "building_reception_1_lv4",
+                "building_reception_1_lv5"
+            ],
+            "parent" : "", // 父房间id，空位为""
+            "children" : ["recption_xxx", "recption_xxx", "recption_xxx"], // 子房间id,空为[]
+            "zoom_pos" : {
+                "x" : 200,
+                "y" : 0,
+                "z" : 200
+            }, // 对焦时camera移动的位置
+            "zoom_dis" : 10, // 对焦时camera移动的距离
+            "guest_rate" : [ // 刷新顧客權重
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "guest_interval" : [ //刷新顧客間隔係數
+                0.1,
+                0.2,
+                0.3,
+                0.4,
+                0.5
+            ]
+        }
+    },
+    "enhance_sets" : {
+        "enhance_set_1" : {
+            "id" : "enhance_set_1", // 加成集合id
+            "enhances" : ["enhance_11", "enhance_12", "enhance_13"], // 加成id
+            "bonus" : [ // 每阶段奖励物品:金钱money，宝石coin，抽取券coupon等
+                {
+                    "item": "money",
+                    "amount": 1000
+                },
+                {
+                    "item": "coin",
+                    "amount": 1000
+                },
+                {
+                    "item": "coupon",
+                    "amount": 1000
+                }
+            ]
+        },
+        "enhance_set_2" : {
+            "id" : "enhance_set_2",
+            "enhances" : ["enhance_21", "enhance_22", "enhance_23"],
+            "bonus" : [
+                {
+                    "item": "money",
+                    "amount": 1000
+                },
+                {
+                    "item": "coin",
+                    "amount": 1000
+                },
+                {
+                    "item": "coupon",
+                    "amount": 1000
+                }
+            ]
+        }
+    },
+    "enhances" : {
+        "enhance_11": {
+            "id" : "enhance_11", // 加成id
+            "max_level" : 10, // 最高等级
+            "enhance_effect" : "revenue", //加成内容，和逻辑硬相关，制作时再确定
+            "step" : 0.2, // 每级增加值
+            "lvlup_cost" : [10, 20, 30, 40, 50], // 升级花费
+            "service" : "", // 适用building类型，为空则所有building都适用，global为0是无效，对应了building的service
+            "global" : 0, // 0是，1否；为global会生效于service所配置的房间，否则只对当前房间生效
+            "ratio" : 1, // 0：值加成， 1：百分比加成
+            "name" : "ENHANCE_11_NAME", // 加成名称本地化key
+            "desc" : "ENHANCE_11_DESC", // 加成描述本地化key
+            "icon" : "Asset/Res/XXXX/XXXX.png"
+        },
+        "enhance_12": {
+            "id" : "enhance_12", // 加成id
+            "max_level" : 10, // 最高等级
+            "enhance_effect" : "revenue", //加成内容，和逻辑硬相关，制作时再确定
+            "step" : 0.2, // 每级增加值
+            "lvlup_cost" : [10, 20, 30, 40, 50], // 升级花费
+            "service" : "", // 适用房间类型，为空则所有房间都适用，global为0是无效
+            "global" : 0, // 0否，1是；为global会生效于service所配置的房间，否则只对当前房间生效
+            "ratio" : 1, // 0：值加成， 1：百分比加成
+            "name" : "ENHANCE_12_NAME", // 加成名称本地化key
+            "desc" : "ENHANCE_12_DESC", // 加成描述本地化key
+            "icon" : "Asset/Res/XXXX/XXXX.png"
+        }
+    },
+    "puppets":[ // 人物配置表，为列表，配置所有的人物
+        {
+            "id" : "GUEST_01", // 人物id
+            "type" : "guest", // 类型：guest, staff, worker
+            "icon" : "Asset/Res/XXXX/XXXX.png", // 头像
+            "prefab" : "Asset/Res/Puppet/Prefab/xxxxx.prefab" // prefab路径，在Res/Puppet/Prefab下
+        },
+        {
+            "id" : "GUEST_02", // 人物id
+            "type" : "guest", // 类型：guest, staff, worker
+            "icon" : "Asset/Res/XXXX/XXXX.png", // 头像
+            "prefab" : "Asset/Res/Puppet/Prefab/xxxxx.prefab" // prefab路径，在Res/Puppet/Prefab下
+        }
+    ],
+    "gacha_groups": { // 奖池配置
+        "CANDIDATE_1": {
+            "id": "CANDIDATE_1", // 奖池id。自由配置，程序内没有定义
+            "weight": 80, // 权重
+            "amount": [1], // 属性数量
+            "rarity": ["NORMAL"] // 属性品质
+        },
+        "CANDIDATE_2": {
+            "id": "CANDIDATE_2",
+            "weight": 17,
+            "amount": [2],
+            "rarity": ["NORMAL"]
+        },
+        "CANDIDATE_3": {
+            "id": "CANDIDATE_3",
+            "weight": 5,
+            "amount": [2, 1],
+            "rarity": ["NORMAL", "RARE"]
+        }
+    },
+    "attributes": { // 属性配置
+        "ATTRIBUTE_EG": {
+            "id": "ATTRIBUTE_EG", // 属性id。自由配置，程序内没有定义
+            "rarity": "NORMAL", // 品质: NORMAL(普通), RARE(稀有), SR(传奇)
+            "name" : "ATTRIBUTE_EG_NAME", // 属性名称本地化key
+            "desc" : "ATTRIBUTE_EG_DESC", // 属性描述本地化key
+            "max": 10, // 指base_value的最大倍数
+            "base_value": 0.03, // 基础值
+            "multiplier": 0.01, // 步进值
+            "vault_ratio": 0.02, // 金库等级系数
+            "enhance_effect": "STAFF_ATTRIBUTE_EG_1", // 加成内容，和逻辑硬相关，制作时再确定
+            "weight": 5, // 权重
+            "icon": "icon_attribute_eg_1", // 图标文件名
+            "building_required": "BUILD_1", // 只有房间解锁后才会抽取到该属性
+            "service" : "hotdog_bureau", // 适用房间类型,在什么服务类型的房间生效,如果空则任何服务类型的房间都生效,生效只针对自身所在房间
+            "global" : 0, // 是否为全局
+            "ratio" : 0, //　是否为比例加成
+            "format": "{0:P}" // 格式待确定, {0:P}显示%， 0.334 -> 33.40% {0:P1}显示%小数点后1位， 0.334 -> 33.4%; {0:N0}显示整数
+        },
+        "ATTRIBUTE_EG_2": {
+            "id": "ATTRIBUTE_EG_2",
+            "rarity": "RARE",
+            "name" : "ATTRIBUTE_EG_2_NAME", // 属性名称本地化key
+            "desc" : "ATTRIBUTE_EG_2_DESC", // 属性描述本地化key
+            "max": 10,
+            "base_value": 0.03,
+            "multiplier": 0.01,
+            "vault_ratio": 0.02, // 金库等级系数
+            "enhance_effect": "STAFF_ATTRIBUTE_EG_1",
+            "weight": 5,
+            "icon": "icon_attribute_eg_1",
+            "building_required": "BUILD_1",
+            "service" : "hotdog_bureau",
+            "global" : 0,
+            "ratio" : 0,
+            "format": "{0:N0}"
+        }
+    },
+    "staff_profile": {
+        "profile_list_staff_male":["chef01","chef02"], // chef01是puppet配置项中的内容
+        "profile_list_staff_female":["chef01","chef02"],
+        "name_list_staff_male":["Jack","Mike"], // 雇员名称本地化key
+        "name_list_staff_female":["Jack","Mike"]
+    },
+    "talents": [ // 科技配置, 按配置的顺序显示
+        {
+            "id": "talent_1", // 属性id。自由配置，程序内没有定义
+            "tab": "tab1", // 页签
+            "section": "section1", // 区域 同时当作本地化key
+            "name" : "talent_1_NAME", // 属性名称本地化key
+            "desc" : "talent_1_DESC", // 属性描述本地化key
+            "cost": 1000, // 研究费用
+            "time": 100, // 研究时间，单位为秒
+            "enhance_type": "type1", //研究内容
+            "value": 0.01, // 数值
+            "icon": "icon_1", // 图标
+            "mini_icon": "icon_1_1", // 右下角角标
+            "require_id": "" // 前置项目，空为可直接研究
+        },
+        {
+            "id": "talent_2", // 属性id。自由配置，程序内没有定义
+            "tab": "tab1", // 页签
+            "section": "section1", // 区域 同时当作本地化key
+            "name" : "talent_2_NAME", // 属性名称本地化key
+            "desc" : "talent_2_DESC", // 属性描述本地化key
+            "cost": 1000, // 研究费用
+            "time": 100, // 研究时间，单位为秒
+            "enhance_type": "type2", //研究内容
+            "value": 0.01, // 数值
+            "icon": "icon_1", // 图标
+            "mini_icon": "icon_1_2", // 右下角角标
+            "require_id": "talent_1" // 前置项目，空为可直接研究
+        }
+    ],
+    "quests" : [
+        {
+            "id" : "quest_1", // 任务id
+            "name" : "QUEST_1_NAME", // 任务名称
+            "desc" : "QUEST_1_DESC", // 任务描述
+            "type" : "build", // 任务类型 build, hire, serve, produce, deliver
+            "param" : "reception_01", // 参数
+            "target" : 1, // 目标值
+            "reward_type" : "money", // 奖励
+            "reward_amount" : 100
+        }
+    ],
+    "shop_config": { // 商店配置
+        "build_team_product_ids": {
+            "build_work_team_2": // 建筑队列ID，程序定义
+                "build_work_team_2_pid", // 建筑队列的商品ID
+            "build_work_team_3": "build_work_team_3_pid",
+            "build_work_team_4": "build_work_team_4_pid",
+        },
+        "research_team_product_ids": {
+            "talent_work_team_2": // 研究队列ID，程序定义
+                "talent_work_team_2_pid", // 研究队列的商品ID
+            "talent_work_team_3": "talent_work_team_3_pid",
+            "talent_work_team_4": "talent_work_team_4_pid",
+        },
+        "product_list": {
+            "p1": {
+                "product_id": "p1", // GooglePlay里设置的商品ID
+                "product_type": 1, //商品类型: 1=消耗型;2=一次性;3=订阅型;
+                "rewards": [ //权益配置
+                    {
+                        "type": "coin", // 类型, 获得金币
+                        "value": 1000 // 值
+                    },
+                    {
+                        "type": "income", // 收入提升
+                        "value": 0.5// 值 收入增加50% 填写0.5
+                    },
+                    {
+                        "type": "money_capacity", // 现金上限
+                        "value": 0.2,
+                        "style": "big/small" // 大小图标的配置。大big, 小small
+                    },
+                    {
+                        "type": "no_ads" // 无广告
+                    },
+                    {
+                        "type": "builder_team", // 建造队列
+                        "teamId": "" // 礼包里的ID为空，队列商品的ID为build_team_product_ids里的定义
+                    },
+                    {
+                        "type": "resercher_team", // 研究队列
+                        "teamId": "talent_work_team_2" // 礼包里的ID为空，队列商品的ID为research_team_product_ids里的定义
+                    },
+                    {
+                        "type": "growth_fund" // 成长基金
+                    }
+                ]
+            }
+        },
+        "shop_gift_limit": [ // 限时礼包配置
+            {
+                "id":"id1", // 礼包ID
+                "product_id": "p1", // GooglePlay里设置的商品ID
+                "show_day":[ // 登陆天数
+                    1,2,3,4,5
+                ],
+                "time": 100, // 时间，单位分
+                "discount": 70, // 显示折扣。70%填写70
+                "title": "no_ad_pack_key", // 右上角标题本地化KEY
+                "background": "bg1", // 底图图片
+                "main_ui_icon": "icon_pop_limit1", // 主界面促销按钮图片
+                "popup_icon": "bg_pop_limitgift1", // 弹出促销界面图片
+            }
+        ],
+        "shop_gift_normal":[], // 普通礼包配置，同上
+        "shop_gift_privilege":[ // 特权配置
+            {
+                "id":"s1",
+                "product_id": "p1",
+                "backgroud": "bg1", // 底图图片
+                "foreground": "f1", // 前景人物图片
+                "name":"Edward Blackwell", // 姓名本地化KEY
+                "title":"The amditious son", // 姓名前称呼本地化KEY
+                "desc":"" // 说明本地化KEY
+            },
+            {
+                "id":"s2",
+                "product_id": "p2",
+                "backgroud": "bg1", // 底图图片
+                "foreground": "f1", // 前景人物图片
+                "name":"Edward Blackwell", // 姓名本地化KEY
+                "title":"The amditious son", // 姓名前称呼本地化KEY
+                "desc":"" // 说明本地化KEY
+            }
+        ],
+        "shop_coin": [ // 金币包
+            {
+                "product_id": "p1",
+                "num": 80, // 数量，显示用
+                "foreground": "f1.png",
+                "popular": false // 是否显示Most popular标签
+            },
+            {
+                "product_id": "p2",
+                "num": 500, // 数量，显示用
+                "foreground": "f2.png",
+                "popular": true
+            }
+        ],
+        "shop_gacha": { // 抽卡配置
+            "gacha_basic": {
+                "cost": 20, // 消耗物品数量
+                "cost_type": "coin", // 消耗物品类型
+                "group": [ "CANDIDATE_1", "CANDIDATE_2", "CANDIDATE_3"] // 抽选池。gacha_groups内配置内容
+            },
+            "gacha_rare": {
+                "cost": 80,
+                "cost_type": "coin",
+                "group": [ "CANDIDATE_1", "CANDIDATE_2", "CANDIDATE_3"]
+            },
+            "gacha_sr": {
+                "cost": 120,
+                "cost_type": "coin",
+                "group": [ "CANDIDATE_1", "CANDIDATE_2", "CANDIDATE_3"]
+            },
+            "gacha_coupon": {
+                "cost": 80,
+                "cost_type": "coupon",
+                "group": [ "CANDIDATE_1", "CANDIDATE_2", "CANDIDATE_3"]
+            }
+        }
+    },
+    "tutorials" : [
+        {
+            "id" : "tutorial_1",
+            "trigger" : "EnterGame", // 触发条件
+            "string_trigger_param" : "", // 触发条件字符串参数
+            "int_trigger_param" : 0, // 触发条件整数参数
+            "check" : "", // 强制完成条件(满足且引导未触发则直接完成)
+            "string_check_param" : "",
+            "int_check_param" : 0,
+            "steps" : [
+                {
+                    "on_start" : "SpeedUp", // 启动触发函数
+                    "on_end" : "ResetSpeed", // 退出触发函数
+                    "dialog" : "TUTORIALS_1_STEP1_DIALOG", // 对话内容
+                    "camera_size" : 10, // size和pos 不移动填0,摄像机锁定尺寸
+                    "camera_pos" : { // 摄像机锁定坐标
+                        "x" : 1.0,
+                        "y" : 1.0,
+                        "z" : 1.0
+                    },
+                    "enter_delay": 300, // 延迟触发，毫秒,弹出面板的时间
+                    "target" : "XXX/XXXX/XXX/XXX", // 指示目标,在hirakey中找到按钮,gamemanagerbuilding 建筑物GameMgr_Building/hotdog_bureau_01(只会在中心点挖空,摄像机要移过去),UI按钮在UIroot上 UIroot开始 stuffbtn结束
+                    "target_size" : 300, // 可点区域直径
+                    "exit_delay" : 300,  // 退出延迟,进入下一步的延迟时间,点UI,消失也需要时间
+                    "save" : true // 是否存盘,只需要配1个,此step结束,整个引导存盘,全部填false和最后一步填true一样,不可逆的填true
+                }
+            ]
+        }
+    ],
+    "emergency" : {
+        "star" : 1, // 触发星星数
+        "interval" : 120, // 触发间隔
+        "emergencies" : [
+            {
+                "type" : "emergency_takeout", // 类型，暂时只为emergency_takeout
+                "timeout" : 120, // 领取时限
+                "duration" : 120, // 执行时间
+                "factor" : 1.5 // 奖励系数
+            },
+            {
+                "type" : "emergency_takeout",
+                "timeout" : 60,
+                "duration" : 60,
+                "factor" : 0.5
+            }
+        ]
+    },
+    "notifications" : [ // 会被触发的通知
+        {
+            "hour" : 12,
+            "minute" : 30,
+            "contents" : [ // 推送内容，每次触发会随机一个，触发时机为启动游戏
+                {
+                    "title" : "NOTIFICATION_TITLE_1",
+                    "text" : "NOTIFICATION_TEXT_1"
+                },
+                {
+                    "title" : "NOTIFICATION_TITLE_2",
+                    "text" : "NOTIFICATION_TEXT_2"
+                }
+            ]
+        }
+    ],
+    "growth_fund_config": {
+        "product_id": "g_pid", // 成长基金的商品ID
+        "unlock_star_num": 1, // 功能解锁所需星级
+        "rewards": [
+            {
+                "id": "g1",
+                "require_star": 30, // 星级要求
+                "reward_coin": 400 // 奖励金币数
+            }
+        ]
+    },
+    "service_boost_config": { // 服务提速配置
+        "unlock_star_num": 1, // 功能解锁所需星级
+        "require_build_id": "", // 指定建筑
+        "shop_gift_id": "", // 跳转商店礼包ID
+        "shop_limit_gift_id": "", // 优先跳转限时礼包ID
+        "effect_time": 60, // 效果持续时间
+        "effect_ratio": 1, // 系数
+        "cooldown": 20 // 主界面按钮间隔时间
+    },
+    "more_guest_config": { // 广告增加顾客配置
+        "new_guest_count": 5, // 刷出顾客数量
+        "unlock_star_num": 1, // 功能解锁所需星级
+        "require_build_id": "", // 指定建筑
+        "shop_gift_id": "", // 跳转商店礼包ID
+        "shop_limit_gift_id": "", // 优先跳转限时礼包ID
+        "cooldown": 20 // 主界面按钮间隔时间
+    }
+}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WorkerIcons
+  m_EditorClassIdentifier: 
+  m_GroupName: WorkerIcons
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3c3868d240a4c5b468178cf68add3226
+  m_SerializeEntries:
+  - m_GUID: 1ac939ee87d7c9a449bb4ff514a1a33b
+    m_Address: Assets/Res/UI/Image/WokerIcons
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1bc5529d853a1a340837260acf0633ac, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 84642564b0a569c4f9092780429a46b9, type: 2}
+    - {fileID: 11400000, guid: 5565bdf71eb69b84984d7f34dd548591, type: 2}

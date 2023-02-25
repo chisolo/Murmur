@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CommonAtlas
+  m_EditorClassIdentifier: 
+  m_GroupName: CommonAtlas
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 56214a1edc5d44f42830851df24e106d
+  m_SerializeEntries:
+  - m_GUID: 25a3f3ecd90b1cf43913fca927619e21
+    m_Address: Assets/Res/UI/Atlas/CommonAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1bc5529d853a1a340837260acf0633ac, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3c12c3383cdf89c40816c57435358e5f, type: 2}
+    - {fileID: 11400000, guid: 5b225bd0d942139499af0dd814ca4e96, type: 2}

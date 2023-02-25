@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIPrefab
+  m_EditorClassIdentifier: 
+  m_GroupName: UIPrefab
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b493c91ce8045244ba7387319b73a5d8
+  m_SerializeEntries:
+  - m_GUID: 126e2ab7e77bf274699facb3f3060a0d
+    m_Address: Assets/Res/UI/Prefab/Building
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c51c52b2d0b46754ab36a807f51216af
+    m_Address: Assets/Res/UI/Prefab/Hub
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3d798238186226479b35ed30db5d6b9
+    m_Address: Assets/Res/UI/Prefab/Popup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0954537375e008f4691f306723ccd269
+    m_Address: Assets/Res/UI/Prefab/Staff
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 878d1ed268c8c794587b042cdf64b72e
+    m_Address: Assets/Res/UI/Prefab/Main
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 870741e70dd420b4aace556857169583
+    m_Address: Assets/Res/UI/Prefab/Talent
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e9fab5e87f2946145a5b895d7a3e14bc
+    m_Address: Assets/Res/UI/Prefab/Quest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d7b44bb6ea9adb64b8c08b2252578b05
+    m_Address: Assets/Res/UI/Prefab/Stats
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3505f0231e24cf4a9ee7a50020f655e
+    m_Address: Assets/Res/UI/Prefab/Shop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9fa8d6e7f0dce274ca9de5d2faaa3660
+    m_Address: Assets/Res/UI/Prefab/GM
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f42afab0e87fd04aa93ac497a6dc7a3
+    m_Address: Assets/Res/UI/Prefab/Setting
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c7a15f2687871f944b70d1452171d950
+    m_Address: Assets/Res/UI/Prefab/Tutorial
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ae4de736d0c0aa34d963ea51f4dd9403
+    m_Address: Assets/Res/UI/Prefab/Loading
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af958e1387a0ada4f84d629cf789d864
+    m_Address: Assets/Res/UI/Prefab/Emergency
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9a4dddd312664d48bc4aae2bd99c59f
+    m_Address: Assets/Res/UI/Prefab/Growth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 633a6fdadf3f4eb468d1255f2f44fde5
+    m_Address: Assets/Res/UI/Prefab/MainPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1bc5529d853a1a340837260acf0633ac, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f0d1aa2084d1c4c4081b6699a5733771, type: 2}
+    - {fileID: 11400000, guid: e75de7622f55a794d8dce66d604deb65, type: 2}

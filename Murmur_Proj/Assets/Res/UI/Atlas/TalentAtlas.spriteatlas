@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TalentAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ffeffa9e488d97543b837cb470b3dc38, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e2d2eb80324d54e4d8259fb194de6a8f, type: 3}
+  - {fileID: 21300000, guid: cd735fd080243b64495eb126327c4080, type: 3}
+  - {fileID: 21300000, guid: d0a0c9e0c0712784784929d21694d776, type: 3}
+  - {fileID: 21300000, guid: 6be4d211be2f3474bb7d6db1be8ab8bc, type: 3}
+  - {fileID: 21300000, guid: cd2914312619feb4b90dc4cf809bda91, type: 3}
+  - {fileID: 21300000, guid: ac5bb1b115f247e4b966b7fab07ad1f9, type: 3}
+  - {fileID: 21300000, guid: 93471d03a66d3bf46b496b53f62e6bac, type: 3}
+  - {fileID: 21300000, guid: dbea7123e8871394ea5ade54a698d54e, type: 3}
+  - {fileID: 21300000, guid: 23c09933bd4b0354e8b64105e5fc0f5b, type: 3}
+  - {fileID: 21300000, guid: 6f215b832c78d4d4f9502c5fd02b67a2, type: 3}
+  - {fileID: 21300000, guid: 177634552e7b151419645413597741e0, type: 3}
+  - {fileID: 21300000, guid: 136bf1b67e5664b4f8c2c0406774e628, type: 3}
+  - {fileID: 21300000, guid: d3c1a4476407f17479115fee51907ee9, type: 3}
+  - {fileID: 21300000, guid: 5b8319b7f5484884b8f1432741fda7c1, type: 3}
+  - {fileID: 21300000, guid: 7e79bad709a72a24dbe9954d1c3e15e2, type: 3}
+  - {fileID: 21300000, guid: 5cfa3dd7b456379449ebac2aefcc9a83, type: 3}
+  - {fileID: 21300000, guid: 64c7e4e7d9e761f4c9d46510dd50f110, type: 3}
+  - {fileID: 21300000, guid: 09415c18f7ec9bf4889d30f7a1713bae, type: 3}
+  - {fileID: 21300000, guid: 1cd60e1848af4a84f83afb9d836fcf87, type: 3}
+  - {fileID: 21300000, guid: a7925b385c558274f8119d50dbf4c451, type: 3}
+  - {fileID: 21300000, guid: 8139a4d8c83f67d4d95c34ec4370b018, type: 3}
+  - {fileID: 21300000, guid: 27cc1229e735ee0489534ab9f5001ea4, type: 3}
+  - {fileID: 21300000, guid: 8781f35a86a9f8243b562182074e994a, type: 3}
+  - {fileID: 21300000, guid: 372b5baa6e8dcb0439c28fde1af69aa2, type: 3}
+  - {fileID: 21300000, guid: 56b88eaa7c6cfdc4b8d044f089711047, type: 3}
+  - {fileID: 21300000, guid: f713d7daea4ca574d997f37b771609af, type: 3}
+  - {fileID: 21300000, guid: 4dbd361b75de49d43b71675183964c3e, type: 3}
+  - {fileID: 21300000, guid: 9affa71bc08bc994da65f628aed88a93, type: 3}
+  - {fileID: 21300000, guid: 8eaf8d1b760192045abd49718f7a316b, type: 3}
+  - {fileID: 21300000, guid: 0cea098c22e46ec44904f0ab3953943e, type: 3}
+  - {fileID: 21300000, guid: 75ff48dc145af65429c6feaef1b6a5ce, type: 3}
+  - {fileID: 21300000, guid: 6491a4ecf2db3a24293668108a01d9fe, type: 3}
+  - {fileID: 21300000, guid: 2671031d2332e0e498a53dcb1e8173a0, type: 3}
+  - {fileID: 21300000, guid: e0b9b13d792082048bbe2f942addc128, type: 3}
+  - {fileID: 21300000, guid: a15eb35d630ebe2418e55612020bcf5d, type: 3}
+  - {fileID: 21300000, guid: d92f93cd85a5eff4f873946968baeda5, type: 3}
+  - {fileID: 21300000, guid: 43c7d0dd12cc4be448d452179f17a780, type: 3}
+  - {fileID: 21300000, guid: 7f157b2e9aa0d8f448ad39ff866ac1c6, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - icon_tech_lessmaterial_cheese1
+  - icon_tech_pizza
+  - icon_tech_level06
+  - icon_tech_level03
+  - icon_tech_promote_pizza
+  - icon_tech_limit_deliver
+  - icon_tech_level05
+  - icon_tech_level04
+  - icon_tech_hotdog
+  - icon_tech_speed_reception
+  - icon_tech_lessmaterial_flour1
+  - icon_tech_building_more
+  - icon_tech_promote_discount
+  - icon_tech_discount_update
+  - icon_tech_profit_diner
+  - icon_tech_promote_extension
+  - icon_tech_deliver
+  - icon_tech_treasury
+  - icon_tech_material
+  - icon_tech_lessmaterial_sausage1
+  - icon_tech_guest_diner
+  - icon_tech_salary_diner
+  - icon_tech_cheese
+  - icon_tech_level02
+  - icon_tech_promote_hamberg
+  - icon_tech_discount_reserch
+  - icon_tech_candidate_quick
+  - icon_tech_building_unlock
+  - icon_tech_sausage
+  - icon_tech_lessmaterial_sausage2
+  - icon_tech_extra_profit
+  - icon_tech_hamberg
+  - icon_tech_candidate_more
+  - icon_tech_statistic
+  - icon_tech_level_reception
+  - icon_tech_flour
+  - icon_tech_speed_storage
+  - icon_tech_level01
+  m_RenderDataMap: {}
+  m_Tag: TalentAtlas
+  m_IsVariant: 0

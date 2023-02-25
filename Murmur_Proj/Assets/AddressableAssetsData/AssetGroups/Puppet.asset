@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Puppet
+  m_EditorClassIdentifier: 
+  m_GroupName: Puppet
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4b1033bdbdf2897469cdb709978e8fe0
+  m_SerializeEntries:
+  - m_GUID: c872d874d93e2264897d802074ab6ca1
+    m_Address: Assets/Res/Puppet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1bc5529d853a1a340837260acf0633ac, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 576f10198f824ea4a8b5cf2999efc8ad, type: 2}
+    - {fileID: 11400000, guid: e82f828c70fae42459270a7651f96fa6, type: 2}

@@ -1,0 +1,1 @@
+java -jar /c/Users/owenc/Downloads/bundletool-all-1.11.0.jar  build-apks --bundle=/c/Users/owenc/Desktop/Android/build.apk/launcher/release/launcher-release.aab --output=app.apks

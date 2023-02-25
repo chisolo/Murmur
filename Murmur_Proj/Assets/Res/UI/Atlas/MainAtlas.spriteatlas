@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: be45aa6fa7f10d14485feee4acd04955, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d6a37f5313e4c5a4f931126f7b3a1af5, type: 3}
+  - {fileID: 21300000, guid: 0f265973e84c55844a45e3075e1767ea, type: 3}
+  - {fileID: 21300000, guid: ee7cb5d3aeea6e84a88304d1993e1d42, type: 3}
+  - {fileID: 21300000, guid: a8d191f4e244fab4c94d9c1db359e391, type: 3}
+  - {fileID: 21300000, guid: 5cf5cce62b32c4a47ae8460cdf6214a8, type: 3}
+  - {fileID: 21300000, guid: ee94724881a60394ca7c4698bd8b2829, type: 3}
+  - {fileID: 21300000, guid: ef88bd68097fc3f4c941242306051be2, type: 3}
+  - {fileID: 21300000, guid: c83e60f817cb3d347bbf0231daa3d580, type: 3}
+  - {fileID: 21300000, guid: 30a4593919fb3b647a2ef9207ac315be, type: 3}
+  - {fileID: 21300000, guid: 1420e65cc8b228e4fbdd9e225ebe36e4, type: 3}
+  - {fileID: 21300000, guid: 65933b0e39e7cd14c8d0ac9bf6babcdf, type: 3}
+  - {fileID: 21300000, guid: 9635346e78586934a987c6ba27aaa9c7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - icon_pop_gowthfund
+  - icon_button_more_guest
+  - bg_pop_limitgift2
+  - button_pop_ads
+  - icon_pop_noads
+  - icon_button_boost
+  - icon_new_guest
+  - icon_pop_limit3
+  - bg_pop_limitgift3
+  - icon_pop_limit2
+  - icon_pop_limit1
+  - bg_pop_limitgift1
+  m_RenderDataMap: {}
+  m_Tag: MainAtlas
+  m_IsVariant: 0

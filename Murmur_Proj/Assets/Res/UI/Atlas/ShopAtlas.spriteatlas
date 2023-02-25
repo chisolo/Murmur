@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShopAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 08e8a7e14f9ba114b9f34af785898cee, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a6c9e4b0414ee0e48baeb34172d5408d, type: 3}
+  - {fileID: 21300000, guid: ea7893c020d6bc44fbb01af91490f667, type: 3}
+  - {fileID: 21300000, guid: 3e1f5711bf51ae3429f987eb0fbba51f, type: 3}
+  - {fileID: 21300000, guid: eab10122da3a8c244bfec966f337d569, type: 3}
+  - {fileID: 21300000, guid: f415804381fb7d146a08fafbf0aa5f3a, type: 3}
+  - {fileID: 21300000, guid: 90fcbfb39f3adfe47930f489749aecec, type: 3}
+  - {fileID: 21300000, guid: c2fe5fc31a99b9e4d94663684fdd3f17, type: 3}
+  - {fileID: 21300000, guid: 9c28e484b620ce54386b65388a822792, type: 3}
+  - {fileID: 21300000, guid: b11055b44afb41442bae575512766bfb, type: 3}
+  - {fileID: 21300000, guid: 9b965565edeabc0408baef4d88e90f46, type: 3}
+  - {fileID: 21300000, guid: e4f09fb55f1427944bd7c71a9b67dd36, type: 3}
+  - {fileID: 21300000, guid: b6cc5fd592f170844b99cd8f025753ba, type: 3}
+  - {fileID: 21300000, guid: b243f256220946a4d91ec4869064ae0e, type: 3}
+  - {fileID: 21300000, guid: 80f1cc17929106f49a97bdded1d56d91, type: 3}
+  - {fileID: 21300000, guid: a0f707d7840a330458b6042092d4cd13, type: 3}
+  - {fileID: 21300000, guid: 72ef0eb908ce1614d8561b7ac660d5b8, type: 3}
+  - {fileID: 21300000, guid: 652abfb96ee990c418914dcba407fbe4, type: 3}
+  - {fileID: 21300000, guid: 8663ef7a3ba3e65458d0a326c6c61373, type: 3}
+  - {fileID: 21300000, guid: dd6d41aa21c9eb24b9ef3bf123377313, type: 3}
+  - {fileID: 21300000, guid: a6ac6fca6af97a34aad69108ed1d6ee8, type: 3}
+  - {fileID: 21300000, guid: 38cc2efaef68e754f91ba58ae316ec60, type: 3}
+  - {fileID: 21300000, guid: 5574581b7492a2b46a65dc01efc8c660, type: 3}
+  - {fileID: 21300000, guid: 3636eb1b65f195f48a7c1fee4222873d, type: 3}
+  - {fileID: 21300000, guid: c092779bf2dcce1458f57d0ddf4ab9de, type: 3}
+  - {fileID: 21300000, guid: 0db84f9ba33559d42adb6a9495b7f208, type: 3}
+  - {fileID: 21300000, guid: f63401cba6badbe4891895d98a2a050a, type: 3}
+  - {fileID: 21300000, guid: cdde669ccc2f89c4083d63e49606ef08, type: 3}
+  - {fileID: 21300000, guid: 989fe1ac76a484744bb63b4b557b5c26, type: 3}
+  - {fileID: 21300000, guid: 7ffe78ec8da2d184e942e5e721dde4f7, type: 3}
+  - {fileID: 21300000, guid: 59fa462d7430a434f80cd58f463933be, type: 3}
+  - {fileID: 21300000, guid: c8140f4ded8077a4eb74b85c5228f65d, type: 3}
+  - {fileID: 21300000, guid: 443c816d8d6b68b4ca8656024e9863d0, type: 3}
+  - {fileID: 21300000, guid: c1ed746ee3ac40847b6e45622e0fa3e7, type: 3}
+  - {fileID: 21300000, guid: 1408b66e7ce491949a053bc3d7228fb3, type: 3}
+  - {fileID: 21300000, guid: 05096abef30ef354aaba0d165a8e79f8, type: 3}
+  - {fileID: 21300000, guid: 168aa92f5e9d9de449cd7b4a4ff52e9e, type: 3}
+  - {fileID: 21300000, guid: a103673f3aca88d45bdb1420554b3e47, type: 3}
+  - {fileID: 21300000, guid: d7fb0e7f51f01b14987819810ef68836, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - button_shop_green_1
+  - bg_shop_botom
+  - icon_shop_research
+  - bg_shop_brown_3
+  - bg_shop_gacha_coupon
+  - button_shop_page_5
+  - icon_shop_title_6
+  - button_shop_page_4
+  - icon_shop_confirm
+  - button_shop_discount
+  - button_shop_page_1
+  - icon_shop_title_2
+  - icon_shop_title_3
+  - icon_shop_title_4
+  - button_shop_yellow_2
+  - bg_shop_yellow_3
+  - bg_shop_yellow_2
+  - bg_shop_brown_2
+  - button_shop_page_3
+  - button_shop_page_2
+  - icon_shop_coupon
+  - button_shop_purple_1
+  - bg_shop_brown_1
+  - button_shop_green_2
+  - icon_shop_noads
+  - bg_shop_green_3
+  - bg_shop_green_2
+  - bg_shop_green_1
+  - icon_shop_coin
+  - button_shop_page_6
+  - bg_shop_blue_1
+  - icon_shop_money
+  - icon_shop_build
+  - button_shop_yellow_1
+  - icon_shop_title_5
+  - bg_shop_top
+  - icon_shop_capacity
+  - icon_shop_title_1
+  m_RenderDataMap: {}
+  m_Tag: ShopAtlas
+  m_IsVariant: 0

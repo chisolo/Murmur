@@ -1,0 +1,1 @@
+java -jar /c/Users/owenc/Downloads/bundletool-all-1.11.0.jar install-apks --apks=app.apks

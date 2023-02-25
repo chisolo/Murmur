@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <androidPackages>
+<!--        firebase -->
+        <androidPackage spec="platform('com.google.firebase:firebase-bom:31.0.2')" />
+        <androidPackage spec="com.google.firebase:firebase-messaging" />
+        <androidPackage spec="com.google.firebase:firebase-analytics" />
+        <androidPackage spec="com.google.firebase:firebase-config" />
+        <androidPackage spec="com.google.firebase:firebase-auth" />
+        <androidPackage spec="com.google.firebase:firebase-crashlytics" />
+<!--        google -->
+        <androidPackage spec="com.android.installreferrer:installreferrer:2.2" />
+        <androidPackage spec="com.google.android.play:review:2.0.0" />
+        <androidPackage spec="com.google.android.play:review-ktx:2.0.0" />
+        <androidPackage spec="com.google.android.play:app-update:2.0.0" />
+        <androidPackage spec="com.google.android.play:app-update-ktx:2.0.0" />
+        <androidPackage spec="com.google.android.gms:play-services-games:22.0.0" />
+        <androidPackage spec="com.google.android.gms:play-services-auth:20.2.0" />
+        <androidPackage spec="com.android.billingclient:billing:5.0.0" />
+<!--        facebook -->
+        <androidPackage spec="com.facebook.android:facebook-android-sdk:15.1.0" />
+<!--        ad-->
+        <androidPackage spec="com.squareup.picasso:picasso:2.71828" />
+        <androidPackage spec="androidx.recyclerview:recyclerview:1.1.0" />
+        <androidPackage spec="com.ironsource.sdk:mediationsdk:7.2.5" />
+        <androidPackage spec="com.mbridge.msdk.oversea:reward:16.2.61" />
+        <androidPackage spec="com.mbridge.msdk.oversea:newinterstitial:16.2.61" />
+        <androidPackage spec="com.mbridge.msdk.oversea:interstitialvideo:16.2.61"/>
+<!--        admob-->
+        <androidPackage spec="com.google.android.gms:play-services-ads:21.3.0" />
+        <androidPackage spec="com.google.ads.mediation:adcolony:4.8.0.+" />
+        <androidPackage spec="com.google.ads.mediation:applovin:11.5.5.+" />
+        <androidPackage spec="com.google.ads.mediation:facebook:6.12.0.+" />
+        <androidPackage spec="com.google.ads.mediation:pangle:4.8.0.8.+" />
+        <androidPackage spec="com.google.ads.mediation:vungle:6.12.0.+" />
+<!--        applovin -->
+        <androidPackage spec="com.applovin:applovin-sdk:11.5.5" />
+        <androidPackage spec="com.applovin.mediation:adcolony-adapter:4.8.0.+" />
+        <androidPackage spec="com.applovin.mediation:google-adapter:21.3.0.+" />
+        <androidPackage spec="com.applovin.mediation:google-ad-manager-adapter:21.3.0.+" />
+        <androidPackage spec="com.applovin.mediation:inmobi-adapter:10.1.2.+" />
+        <androidPackage spec="com.applovin.mediation:line-adapter:2022.2.16.+" />
+        <androidPackage spec="com.applovin.mediation:facebook-adapter:6.12.0.+" />
+        <androidPackage spec="com.applovin.mediation:mintegral-adapter:16.2.61.+" />
+        <androidPackage spec="com.applovin.mediation:bytedance-adapter:4.8.0.8.+" />
+        <androidPackage spec="com.applovin.mediation:tapjoy-adapter:12.11.0.+" />
+        <androidPackage spec="com.applovin.mediation:unityads-adapter:4.4.1.+" />
+        <androidPackage spec="com.applovin.mediation:vungle-adapter:6.12.0.+" />
+        <androidPackage spec="pub.adfly:adapter-max:0.20.+" />
+    </androidPackages>
+</dependencies>

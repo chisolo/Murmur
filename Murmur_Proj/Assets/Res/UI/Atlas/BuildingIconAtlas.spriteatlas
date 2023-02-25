@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BuildingIconAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7cd503a0e5f7c4248a59973b008a3892, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a42b267075cdafe458103abf21dcffab, type: 3}
+  - {fileID: 21300000, guid: 13e7b3b01ff797d4ca58762474117c02, type: 3}
+  - {fileID: 21300000, guid: 14f423e0746fa1148b36f08f96502b70, type: 3}
+  - {fileID: 21300000, guid: 5d3ada817c8749c4ea2c65a576462f33, type: 3}
+  - {fileID: 21300000, guid: a89eef72052a2c14ab0b65a0d75c1467, type: 3}
+  - {fileID: 21300000, guid: 2aeb96b2c26f577438039c42ebf9c5f4, type: 3}
+  - {fileID: 21300000, guid: 5dc18c633c6afad4f8d2ea3b67cfa607, type: 3}
+  - {fileID: 21300000, guid: 109f4064527631f49b79c039000ecd66, type: 3}
+  - {fileID: 21300000, guid: 1eb053f407f5fcd4b950374958640cd7, type: 3}
+  - {fileID: 21300000, guid: e940bd150ec650d45b78293ada1e2674, type: 3}
+  - {fileID: 21300000, guid: a0d81a45e27b2e846bbc42a1c1ee1ddd, type: 3}
+  - {fileID: 21300000, guid: a1a219b628f3b9843b9949e2eba5312b, type: 3}
+  - {fileID: 21300000, guid: 48fb3229e1c5b4b46adeaa3b4e244ed9, type: 3}
+  - {fileID: 21300000, guid: 2f328f6983768964f999f08819e95f1d, type: 3}
+  - {fileID: 21300000, guid: 3774c0799591f74458b8ffaf3e7b45e1, type: 3}
+  - {fileID: 21300000, guid: 8d37047938d750f4b8a181180012a1e5, type: 3}
+  - {fileID: 21300000, guid: 37243a89499f9bb43b23d12c870da562, type: 3}
+  - {fileID: 21300000, guid: 64a8a3996afaf5c4a873a79b6ee85a1b, type: 3}
+  - {fileID: 21300000, guid: a6d575e9793939c449356acb525f942a, type: 3}
+  - {fileID: 21300000, guid: fa83a21ac7e4d484f9bc5439ad65551c, type: 3}
+  - {fileID: 21300000, guid: ced8747affcc6834db2371d6ffe2e812, type: 3}
+  - {fileID: 21300000, guid: 6e4892ca7e079f840ac0145f43d12dee, type: 3}
+  - {fileID: 21300000, guid: c8ebd95b6f659134e8296a607abe246b, type: 3}
+  - {fileID: 21300000, guid: 12e8374c788790949861b45eefdd064f, type: 3}
+  - {fileID: 21300000, guid: e051a51d3c19dfc4faba6a01adbbd155, type: 3}
+  - {fileID: 21300000, guid: ca21945d3626f3944887981674097e5b, type: 3}
+  - {fileID: 21300000, guid: 651636cd7d4993c4db5bcb93d8b74608, type: 3}
+  - {fileID: 21300000, guid: 9bdb150e62721534a8e920aa3facd9d8, type: 3}
+  - {fileID: 21300000, guid: c760ca2e6656a9448a48b0cd7076a7da, type: 3}
+  - {fileID: 21300000, guid: d9732f5e30006ca488e675d259fa362a, type: 3}
+  - {fileID: 21300000, guid: 1329cbde2f438b947bf5963b0b84d8ba, type: 3}
+  - {fileID: 21300000, guid: 460c7b6fe9adb5c4785a68b0fbdcc410, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - build_upgrade_icon
+  - build_big_hotdog
+  - build_carry
+  - build_small_hamberg
+  - icon_bubble
+  - build_small_treasury
+  - icon_receptionist
+  - build_small_carry
+  - icon_bubble_timeout
+  - icon_supply_speed
+  - build_small_hotdog
+  - build_big_treasury
+  - build_upgrade_bg
+  - build_small_cheese
+  - build_storage
+  - build_treasury
+  - icon_lineup
+  - build_small_reception
+  - build_small_pizza
+  - build_big_carry
+  - icon_bubble_smile
+  - icon_bubble_angry
+  - build_big_storage
+  - build_big_reception
+  - puppet_progress
+  - icon_clients
+  - build_small_flour
+  - build_small_sausage
+  - icon_carrier_speed
+  - icon_service_speed
+  - build_hotdog
+  - icon_carry_number
+  m_RenderDataMap: {}
+  m_Tag: BuildingIconAtlas
+  m_IsVariant: 0

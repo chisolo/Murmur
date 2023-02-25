@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: ShopAtlas
+  m_EditorClassIdentifier: 
+  m_GroupName: ShopAtlas
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f1b2d2bc1f4d3864fa7e08aa27085672
+  m_SerializeEntries:
+  - m_GUID: 08e8a7e14f9ba114b9f34af785898cee
+    m_Address: Assets/Res/UI/Atlas/ShopAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b438ef0ecced76d49918786e6ea8a3d3
+    m_Address: Assets/Res/UI/Atlas/ShopGiftAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a65307223270395438ca029ce23ff963
+    m_Address: Assets/Res/UI/Atlas/ShopIconAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1bc5529d853a1a340837260acf0633ac, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c6e002f1f90324748a2ae08368e28178, type: 2}
+    - {fileID: 11400000, guid: f13dbdc7d0036e140b53b055e300e883, type: 2}

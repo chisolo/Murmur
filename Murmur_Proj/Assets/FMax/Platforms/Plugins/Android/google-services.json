@@ -1,0 +1,39 @@
+{
+    "project_info": {
+        "project_number": "396720457377",
+        "project_id": "foodpark-15d29",
+        "storage_bucket": "foodpark-15d29.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:396720457377:android:de44b5cd081311116252e0",
+                "android_client_info": {
+                    "package_name": "com.idle.food.park.empire"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "396720457377-h3nua1jnpba3o7o644kakamap2lpc0jl.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAtC2y9PaaI7eCcFo8i3uFThQHR6jP9cYg"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "396720457377-h3nua1jnpba3o7o644kakamap2lpc0jl.apps.googleusercontent.com",
+                            "client_type": 3
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

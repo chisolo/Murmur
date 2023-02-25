@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AttributeIconAtlas
+  m_EditorClassIdentifier: 
+  m_GroupName: AttributeIconAtlas
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b2fe5a6423f9ac44c95f553925149953
+  m_SerializeEntries:
+  - m_GUID: 85d1266b4d2d57444b4bb4dee3b5642c
+    m_Address: Assets/Res/UI/Atlas/AttributeIconAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1bc5529d853a1a340837260acf0633ac, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: feab4304a2625244b899c2850c545808, type: 2}
+    - {fileID: 11400000, guid: 5ade96e2d69934d4693dcb2e8e70e67b, type: 2}

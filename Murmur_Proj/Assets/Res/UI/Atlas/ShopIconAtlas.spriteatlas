@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShopIconAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a65307223270395438ca029ce23ff963, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 05c07cf046f0dc54c9f5f70218ad2612, type: 3}
+  - {fileID: 21300000, guid: 0ed395538f7d2c3469d9c2b1307b0150, type: 3}
+  - {fileID: 21300000, guid: da91724448688c84295a44f9a9b37709, type: 3}
+  - {fileID: 21300000, guid: e41f67c53b43c1146b95c0082447246f, type: 3}
+  - {fileID: 21300000, guid: 5e443df5ff36a9849aa0535a86b27799, type: 3}
+  - {fileID: 21300000, guid: bbe71b66c9291ba4aba2de7c808f042a, type: 3}
+  - {fileID: 21300000, guid: 2d2a19e665e6fd94b9aaaecc6b5cbae8, type: 3}
+  - {fileID: 21300000, guid: a02b36a84ac66694d8955ba3cd7a1a5f, type: 3}
+  - {fileID: 21300000, guid: 1aa0e7d83e327e244a96cdada68467b8, type: 3}
+  - {fileID: 21300000, guid: c197684c6bde0f846935816cda77ead9, type: 3}
+  - {fileID: 21300000, guid: c1fd8fbcd0d93624bba952c66058c3c4, type: 3}
+  - {fileID: 21300000, guid: f7bd21dc6125c1c40ab1b7066e75b032, type: 3}
+  - {fileID: 21300000, guid: 0754d5cd915962342a5264c453810163, type: 3}
+  - {fileID: 21300000, guid: 03662f7ebfcba964f99321eb3b229913, type: 3}
+  - {fileID: 21300000, guid: d9ddadcedc323c148948f196f8e38f81, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - icon_shop_coins_5
+  - bg_shop_yellow_1
+  - icon_shop_coins_6
+  - portrait_shop_builder
+  - portrait_shop_researcher
+  - bg_shop_coins
+  - portrait_shop_prevelige_3
+  - icon_shop_coins_2
+  - portrait_shop_prevelige_4
+  - icon_shop_coins_1
+  - portrait_shop_prevelige_5
+  - icon_shop_coins_3
+  - icon_shop_coins_4
+  - portrait_shop_prevelige_2
+  - portrait_shop_prevelige_1
+  m_RenderDataMap: {}
+  m_Tag: ShopIconAtlas
+  m_IsVariant: 0

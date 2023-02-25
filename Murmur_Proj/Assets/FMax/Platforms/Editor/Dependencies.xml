@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <iosPods>
+        <iosPod name="AppsFlyerFramework" version="6.8.1" />
+        <iosPod name="Reachability" version="3.2" />
+        <iosPod name="Toast" version="4.0.0" />
+        <iosPod name="FMDB" version="2.7.5" />
+        <iosPod name="MMKV" version="1.2.14" />
+<!--        firebase -->
+        <iosPod name="FirebaseCore" version="10.1.0" />
+        <iosPod name="FirebaseAnalytics" version="10.1.0" />
+        <iosPod name="FirebaseAuth" version="10.1.0" />
+        <iosPod name="FirebaseMessaging" version="10.1.0" />
+        <iosPod name="FirebaseInstallations" version="10.1.0" />
+        <iosPod name="FirebaseRemoteConfig" version="10.1.0" />
+        <iosPod name="FirebaseCrashlytics" version="10.1.0" />
+<!--        ad-->
+        <iosPod name="IronSourceSDK" version="7.2.5.1" />
+<!--        admob-->
+        <iosPod name="Google-Mobile-Ads-SDK" version="9.13.0" />
+        <iosPod name="GoogleMobileAdsMediationAdColony" version="4.9.0.0" />
+        <iosPod name="GoogleMobileAdsMediationAppLovin" version="11.5.5.0" />
+        <iosPod name="GoogleMobileAdsMediationFacebook" version="6.12.0.0" />
+<!--        applovin -->
+        <iosPod name="AppLovinSDK" version="11.5.5" />
+        <iosPod name="FBAudienceNetwork" version="6.12.0" />
+        <iosPod name="AppLovinMediationAdColonyAdapter" version="4.9.0.0.2" />
+        <iosPod name="AppLovinMediationGoogleAdapter" version="9.13.0.0" />
+        <iosPod name="AppLovinMediationGoogleAdManagerAdapter" version="9.13.0.0" />
+        <iosPod name="AppLovinMediationInMobiAdapter" version="10.1.1.1" />
+        <iosPod name="AppLovinMediationIronSourceAdapter" version="7.2.5.1.2" />
+        <iosPod name="AppLovinMediationLineAdapter" version="2.4.20220630.1" />
+        <iosPod name="AppLovinMediationFacebookAdapter" version="6.12.0.1" />
+        <iosPod name="AppLovinMediationMintegralAdapter" version="7.2.6.0.1" />
+        <iosPod name="AppLovinMediationByteDanceAdapter" version="4.7.0.8.2" />
+        <iosPod name="AppLovinMediationTapjoyAdapter" version="12.11.0.0" />
+        <iosPod name="AppLovinMediationUnityAdsAdapter" version="4.4.1.0" />
+        <iosPod name="AppLovinMediationVungleAdapter" version="6.12.1.1" />
+    </iosPods>
+</dependencies>

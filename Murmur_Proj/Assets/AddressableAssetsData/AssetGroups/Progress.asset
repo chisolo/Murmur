@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Progress
+  m_EditorClassIdentifier: 
+  m_GroupName: Progress
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0b9296b7b20f71940a8d55f65fb1ec48
+  m_SerializeEntries:
+  - m_GUID: a2c6126905dce0d4393a9545d9728de6
+    m_Address: Assets/Res/UI/Progress/progress_bar_1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2304aa860f1b31468dfb7404f52df2e
+    m_Address: Assets/Res/UI/Progress/progress_bar_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3bb74368dc4f8954cb013035d4f3e534
+    m_Address: Assets/Res/UI/Progress/progress_bar_4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1bc5529d853a1a340837260acf0633ac, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dd484f4e2fd95c1449b4090d3a4b4467, type: 2}
+    - {fileID: 11400000, guid: e6769e9e4cf724a4f91b453eaaf542ab, type: 2}
